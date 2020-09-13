@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-amazono'`, () => {
+  it(`should have as title 'amazono-angular-web'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-amazono');
+    expect(app.title).toEqual('amazono-angular-web');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-amazono app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('amazono-angular-web app is running!');
   });
 });
